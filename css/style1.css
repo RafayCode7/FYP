@@ -700,6 +700,9 @@ body{
   line-height:24px;
   background:#1A76D1;
 }
+.site-footer .container p{
+	color:#fff;
+}
 .site-footer hr
 {
   border-top-color:#fff;
@@ -723,8 +726,12 @@ body{
 }
 .site-footer a:hover
 {
+	/* color:#2C2D3F;
+
+  text-decoration:none; */
   color:#1A76D1;
-  text-decoration:none;
+	background:#fff;
+	border-color:transparent;
 }
 .footer-links
 {
@@ -762,12 +769,12 @@ body{
   border-radius:100%;
   background-color:#1A76D1
 }
-.copyright-text
+.copyright-text p
 {
   margin:0
-  color: #fff;
+  calc(#fff)
 }
-@media (max-width:991px)
+ (max-width:991px)
 {
   .site-footer [class^=col-]
   {
